@@ -75,7 +75,6 @@ CD.find({
 
   if (process.argv[2] === 'search') {
     if (cds.length > 0) {
-      console.log(cds)
       var max = +process.argv[4];
       var count = 0;
       cds.forEach(cd => {
